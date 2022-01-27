@@ -1,3 +1,6 @@
-export default {
-    currentCategory: {categoryName: ""}
+const initialState = {
+    currentCategory: {categoryName: ""},
+    categories: []
 }
+
+export default initialState;

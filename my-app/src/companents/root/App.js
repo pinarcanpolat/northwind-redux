@@ -1,13 +1,12 @@
 import { Container } from "reactstrap";
 import Navi from "../navi/Navi";
-import Dashboard from "./Dashboard";
+import Dashboard from "../root/Dashboard";
 
 function App() {
   return (
     <Container>
-      <Navi>
-        <Dashboard></Dashboard>
-      </Navi>
+      <Navi></Navi>
+      <Dashboard></Dashboard>
     </Container>
   );
 }
